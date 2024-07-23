@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container{
+    background-color:#332144;
+    display:flex;
+    flex-direction:column;
+    border:black;
+    padding:12px;
+    margin:10px;
+    
+    border-style:solid;
+    width:20%;
+    min-width: fit-content;
+    border-radius: 10px;
+    border-width:1px;
+}
+
+h1{
+    font-size:medium;
+    color:#fff;
+    margin-bottom: 5px;
+}
+
+#envio-formulario{
+    background-color:#fff0fd;
+    color:#332144;
+}
+
+input{
+    margin:3px;
+    width: 100%;
+    min-width: fit-content;
+}
+
+
+.mensagem-sucesso, .mensagem-erro{
+    background-color:#332144;
+    display:flex;
+    flex-direction:column;
+    border:black;
+    padding:12px;
+    margin:10px;
+    
+    border-style:solid;
+    width:40%;
+    min-width: fit-content;
+    border-radius: 10px;
+    border-width:1px;
+    color:white;
+    display:none;
+}
